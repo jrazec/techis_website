@@ -102,7 +102,7 @@ html {
 }
   
 body {
-  background-image: linear-gradient(to bottom, var(--red1), var(--maroon));
+  background-image: linear-gradient(to bottom, var(--black1), var(--white2));
   color: var(--white);
   font-size: 1.6rem;
   line-height: 1.75;
