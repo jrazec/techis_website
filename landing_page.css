@@ -102,7 +102,7 @@ html {
 }
   
 body {
-  background-image: linear-gradient(to bottom, var(--black1), var(--white2));
+  background-image: linear-gradient(to bottom, var(--black1), rgb(133, 133, 133));
   color: var(--white);
   font-size: 1.6rem;
   line-height: 1.75;
@@ -675,7 +675,7 @@ background-color: var(--white);
   \*-----------------------------------*/
   
 .footer {
-  background-color: var(--rubby);
+  background-color: var(--black1);
   padding-block: 76px;
 }
   
