@@ -253,8 +253,8 @@ body.nav-active {
 .slider {
   --slider-items: 1;
   --item-gap: 12px;
+  margin-top: 15px;
   
-  margin-block-start: 60px;
   overflow: hidden;
 }
   
@@ -270,6 +270,7 @@ body.nav-active {
   --item-width: calc((100% / var(--slider-items)) - (var(--total-gap) / var(--slider-items)));
   min-width: var(--item-width);
   width: var(--item-width);
+  height: 300px;
 }
   
 .slider-control {
@@ -324,7 +325,14 @@ background-color: var(--white);
   object-fit: cover;
 }
   
-  
+.img_event {
+  width: 330px; 
+  height: 300px;
+}
+ 
+.img_event:is(:hover, :focus-within) {
+  filter: blur(3px);
+}
 .preloader {
   position: fixed;
   top: 0;
@@ -511,10 +519,11 @@ background-color: var(--white);
   
 .service-card {
   position: relative;
-  background-color: var(--white);
   height: 100%;
-  padding: 60px 40px 40px;
-  transition: var(--transition-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5;
   border-radius: 20px;
 }
   
@@ -525,10 +534,17 @@ background-color: var(--white);
 }
   
 .service-card .card-title {
-  color: var(--content-color, var(--blood));
+  position: absolute;
+  color: var(--content-color, var(--black1));
   margin-block: 20px;
 }
-  
+
+h3.card-title {
+  visibility: hidden;
+}
+
+
+
 .service-card .card-text { 
   color: var(--content-color, var(--blood)); 
 }
@@ -545,11 +561,10 @@ background-color: var(--white);
 }
   
 .service-card:is(:hover, :focus-within) {
-  background-color: var(--maroon);
   --content-color: var(--white);
 }
   
-  
+
 .skills .section-text { 
   margin-block-end: 20px;
 }
@@ -706,7 +721,25 @@ background-color: var(--white);
   
   
   
-  
+ 
+/*================= Cards in About Section ==================*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardImg {
+  border-radius: 5px 5px 0 0;
+}
+
+.cardContainer {
+  padding: 2px 16px;
+} 
   
   /*-----------------------------------*\
     #MEDIA QUERIES
@@ -869,7 +902,9 @@ background-color: var(--white);
   
 }
   
-  
+.event_header {
+  padding-top: 150px;
+} 
   
   
   
@@ -1032,6 +1067,8 @@ background-color: var(--white);
   
 }
 
+
+/* FOR MOBILE */
 @media (max-width: 800px) {
   .sections {
     flex-direction: column;
@@ -1202,5 +1239,17 @@ background-color: var(--white);
   .h1.hero-title {
     font-size: 90px;
   }
+
+  .img_event {
+    width: 250px; 
+    height: 250px;
+  }
+
+  .event_header {
+    padding-top: 120px;
+  }
+
+
+  /* Start Here For Mobile Version:> */
 
 }
