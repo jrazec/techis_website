@@ -542,7 +542,9 @@ h3.card-title {
   visibility: hidden;
 }
 
-
+.card-text {
+  font-family: 'Poppins', sans-serif; font-size: 22px; text-align: justify; padding-top: 20px;
+}
 
 .service-card .card-text { 
   color: var(--content-color, var(--blood)); 
@@ -781,6 +783,23 @@ h3.card-title {
   border-bottom-left-radius: 50px;
 }
 
+.m_v {
+  display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgb(78, 78, 78); width: 60vw; padding: 25px; border-radius: 50px; box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.651) inset, 5px 5px 10px 0 rgba(255, 255, 255, 0.507);   
+}
+.m_v_info {
+  text-align: center; width: 100%; font-family: 'Poppins', sans-serif; font-size: 20px; padding-top: 20px; padding-left: 0; padding-right: 0;
+}
+
+.img_mv {
+  width: 10vw; height: 15vh; object-fit: cover;
+}
+
+.obj {
+  text-align: center; width: 70%;  font-family: 'Poppins', sans-serif; font-size: 24px; text-align: justify;
+}
+.join_us {
+  text-align: justify; width: 70%; font-size: 20px; font-family: 'Poppins', sans-serif; padding-top: 15px;
+}
   /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -1289,8 +1308,36 @@ h3.card-title {
     padding-top: 120px;
   }
   
-  
+  .card-text {
+    font-size: 11px;
+  }
+  #service-label {
+    margin-bottom: 0;
+  }
+  .container {
+    padding: 10vw;
+  }
+  .m_v {
+    width: 85vw;
 
+  }
+  .img_mv {
+    height: 50px;
+    width: 50px;
+    object-fit:cover;
+  }
+  .m_v_info {
+    font-size: 12px;
+  }
+  .obj {
+    font-size: 12px;
+  }
+  .join_us {
+    font-size: 10px;
+  }
+  #service-label {
+    font-size: 24px;
+  }
   /* Start Here For Mobile Version:> */
 
 
