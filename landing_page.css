@@ -420,14 +420,13 @@ background-color: var(--white);
   
 .navbar-list {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .navbar-link {
   color: var(--white);
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
-  padding-block: 10px;
   transition: var(--transition-1);
 }
   
@@ -719,7 +718,10 @@ h3.card-title {
   border-color: var(--white); 
 }
   
-  
+#brochure {
+  width: 70vw;
+  height: 84vh;
+}
   
  
 /*================= Cards in About Section ==================*/
@@ -741,6 +743,44 @@ h3.card-title {
   padding: 2px 16px;
 } 
   
+
+.building-img {
+  height: 10vh;
+}
+.room_img {
+  height: 70vh;
+}
+.building-info {
+  display: flex;
+  gap: 5vw;
+}
+
+.floor {
+  font-family: var(--ff-syne2);
+  
+}
+
+.room-name {
+  
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.building-rooms {
+  width: 40vw;
+  padding:50px; 
+  height: 70vh; 
+  overflow: scroll; 
+  background-color: rgba(104, 97, 97, 0.459); 
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2) inset; 
+  border-top-left-radius: 50px; 
+  border-bottom-left-radius: 50px;
+}
+
   /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -1248,7 +1288,8 @@ h3.card-title {
   .event_header {
     padding-top: 120px;
   }
-
+  
+  
 
   /* Start Here For Mobile Version:> */
 
