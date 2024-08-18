@@ -152,7 +152,7 @@ body.nav-active {
   line-height: 1;
   font-family:'Jersey 10', sans-serif;
   font-size: 10.8rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.35rem;
 }
   
 .h2 { 
@@ -333,7 +333,7 @@ background-color: var(--white);
 }
   
 .logo-cics {
-  background-color: white;
+  background-image: linear-gradient(rgba(133, 133, 133, 0.2), rgba(255, 255, 255, 0.2));
   box-shadow: 20px 25px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
   border-radius: 20px;
 }
@@ -444,7 +444,7 @@ background-color: var(--white);
   width: 40vw;
 }
 .alpha-logo {
-  width: 10vw;
+  width: 20vw;
 }
 
 .navbar-link {
