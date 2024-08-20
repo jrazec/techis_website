@@ -152,7 +152,7 @@ body.nav-active {
   line-height: 1;
   font-family:'Jersey 10', sans-serif;
   font-size: 10.8rem;
-  letter-spacing: 0.35rem;
+  letter-spacing: 3px;
 }
   
 .h2 { 
@@ -838,6 +838,13 @@ h3.card-title {
 .join_us {
   text-align: justify; width: 80%; font-size: 20px; font-family: 'Poppins', sans-serif; padding-top: 15px;
 }
+
+.pic-events {
+  width: 20vw;
+  border-radius: 20px;
+}
+
+
   /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -1416,19 +1423,18 @@ h3.card-title {
     width: 70vw;
   }
   .info-proj {
-    width: 70vw;
+    width: 60vw;
   }
   .pic-events {
     width: 50vw;
+    border-radius: 20px;
   }
   .title-event {
     font-size: 13px;
     text-align: center;
+    letter-spacing: 2 px;
   }
   #recent-achievements {
     font-size: 20px;
-  }
-  .info-proj{
-    width: 50vw;
   }
 }
