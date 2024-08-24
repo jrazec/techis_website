@@ -163,6 +163,10 @@ body.nav-active {
   width: 10vw;
 }
 
+.info-proj {
+  padding: 10px 15rem 0px 15rem;
+}
+
 .h3 {
   color: var(--white);
   font-size: var(--fs-4);
@@ -1424,6 +1428,7 @@ h3.card-title {
   }
   .info-proj {
     width: 60vw;
+    padding: 0px;
   }
   .pic-events {
     width: 50vw;
