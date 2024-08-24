@@ -1395,14 +1395,19 @@ h3.card-title {
   .obj {
     font-size: 12px;
   }
+
+  .join-title span{
+    font-size: 3rem;
+  }
+
   .join_us {
     font-size: 10px;
   }
   #service-label {
-    font-size: 20px;
+    font-size: 3rem;
   }
   #service_label {
-    font-size: 16px;
+
     text-align: center;
   }
   /* Start Here For Mobile Version:> */
