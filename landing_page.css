@@ -144,6 +144,10 @@ body.nav-active {
   font-size: var(--fs-3);
   font-weight: var(--fw-800);
 }
+
+.fa-chevron-left, .fa-chevron-right{
+  font-size: 4rem;
+}
   
 .h1,
 .h2,
@@ -172,6 +176,10 @@ body.nav-active {
   align-items: center;
   flex-direction: column;
 
+}
+
+.un-logo{
+  width: 10rem;
 }
 
 .h3 {
@@ -351,6 +359,7 @@ background-color: var(--white);
 .img_event {
   width: 330px; 
   height: 300px;
+  border-radius: 2rem;
 }
  
 .img_event:is(:hover, :focus-within) {
@@ -1398,6 +1407,13 @@ h3.card-title {
     padding-top: 0 px;
   }
 
+  .fa-chevron-left, .fa-chevron-right{
+    font-size: 3rem;
+  }
+
+  .slider-controls{
+    margin-block-start: 0px;
+  }
 
   .obj {
     font-size: 12px;
