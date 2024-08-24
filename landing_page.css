@@ -906,6 +906,28 @@ h3.card-title {
   justify-content: space-between;
 }
 
+.scrollup{
+  position: fixed;
+  color: white;
+  background-color: #00000076;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  bottom: 7rem;
+  right: 10rem;
+  z-index: 999;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.scrollup:hover{
+  background-color: #c2c2c241;
+  color: black;
+  transition: 0.3s;
+}
 
   /*-----------------------------------*\
     #MEDIA QUERIES
@@ -1547,7 +1569,23 @@ h3.card-title {
     width: 100%;
     border-radius: 0.5rem;
   }
-
+  .scrollup{
+    overflow: hidden;
+    position: fixed;
+    color: white;
+    background-color: #00000076;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    bottom: 5rem;
+    right: 5vw;
+    z-index: 999;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
   .footer-list-title {
     font-size: 1.5rem;
   }
