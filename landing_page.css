@@ -872,6 +872,17 @@ h3.card-title {
   border-radius: 20px;
 }
 
+.sdg_main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sdg_main span{
+  font-family: 'Poppins';
+  font-weight: bold;
+}
 .sdg_icons{
   width: max(40vw, 75%);
   display: grid;
@@ -1509,6 +1520,21 @@ h3.card-title {
     font-size: 20px;
   }
 
+  .sdg_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .sdg_main span{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+  
   .sdg_icons{
     width: max(40vw, 75%);
     display: grid;
