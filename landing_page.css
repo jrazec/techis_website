@@ -826,7 +826,15 @@ h3.card-title {
 }
 
 .m_v {
-  display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgb(78, 78, 78); width: 60vw; padding: 25px; border-radius: 50px; box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.651) inset, 5px 5px 10px 0 rgba(255, 255, 255, 0.507);   
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: rgb(78, 78, 78); 
+  width: 60vw; 
+  padding: 25px; 
+  border-radius: 50px; 
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.549) inset, 1.5px 1.5px 2px 0 rgba(255, 255, 255, 0.507);   
 }
 .m_v_info {
   text-align: center; width: 100%; font-family: 'Poppins', sans-serif; font-size: 20px; padding-top: 20px; padding-left: 0; padding-right: 0;
@@ -1371,13 +1379,19 @@ h3.card-title {
 
   }
   .img_mv {
-    height: 50px;
-    width: 50px;
-    object-fit:cover;
+    min-height: 15rem;
+    min-width: 15rem;
   }
   .m_v_info {
     font-size: 12px;
+    text-align: justify;
   }
+
+  .mv-title{
+    padding-top: 0 px;
+  }
+
+
   .obj {
     font-size: 12px;
   }
