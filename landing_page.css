@@ -872,6 +872,11 @@ h3.card-title {
   border-radius: 20px;
 }
 
+.sdgmenu{
+  display: flex;
+  flex-direction: row;
+}
+
 
   /*-----------------------------------*\
     #MEDIA QUERIES
@@ -1428,6 +1433,7 @@ h3.card-title {
   }
   #service-label {
     font-size: 3rem;
+    line-height: 0%;
   }
   #service_label {
 
