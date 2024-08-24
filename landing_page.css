@@ -872,9 +872,27 @@ h3.card-title {
   border-radius: 20px;
 }
 
+.sdg_icons{
+  width: max(40vw, 75%);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.sdg_icons a {
+  display: flex;
+  justify-content: center;
+}
+
+.sdgpics{
+  width: 55%;
+  border-radius: 0.5rem;
+}
+
 .sdgmenu{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 
@@ -1489,6 +1507,19 @@ h3.card-title {
   }
   #recent-achievements {
     font-size: 20px;
+  }
+
+  .sdg_icons{
+    width: max(40vw, 75%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .sdgpics{
+    width: 100%;
+    border-radius: 0.5rem;
   }
 
   .footer-list-title {
