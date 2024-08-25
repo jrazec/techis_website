@@ -990,6 +990,16 @@ h3.card-title {
 
 }
 
+.sdg-proj-content {
+  display: flex; justify-content: center; align-items: center;
+  gap: 2rem;
+}
+
+.sdg-left-cont {
+  display: flex; justify-content: center; align-items: center; flex-direction: column;
+  gap: 2rem;
+}
+
 .section-sdg {
   position: relative;
 }
@@ -1537,10 +1547,10 @@ h3.card-title {
     width: 85vw;
 
   }
-  .img_mv {
+  /* .img_mv {
     min-height: 15rem;
     min-width: 15rem;
-  }
+  } */
   .m_v_info {
     font-size: 12px;
     text-align: justify;
@@ -1695,4 +1705,57 @@ h3.card-title {
     object-fit: contain;
   
   }
+  .sdg-proj-content {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    gap: 0px;
+  }
+  
+  .sdg-left-cont {
+    font-size: 12px;
+  }
+  .sdg-desc {
+    display: flex; justify-content: center; align-items: center;
+    font-size: 12px;
+  }
+  .sdg-members {
+    display: flex; justify-content: center; align-items: center;
+    font-size: 12px;
+  }
+  .sdg-pic-ex {
+    width: 80vw;
+  }
+  .sdg-desc,.sdg-members {
+    width: 70vw;
+  }
+  .sdg-right-cont {
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+  }
+  .sdg-logos-cont-right, .sdg-logos-cont-left, .sdg-logos {
+    visibility: hidden;
+  }
+  .sdg-titles {
+    font-size: 45px;
+  }
+  .logo-ribbon-right {
+    padding-left: 3.8rem;
+    width: 60vw;
+  }
+  .logo-ribbon-left {
+    padding-left: 3.8rem;
+    width: 60vw;
+  }
+  .sdg-logos-cont-right {
+    left: 80px;
+    width: 17vw;
+    height: 17vw;
+  }
+  .sdg-logos {
+    width: 14vw;
+    height: 14vw;
+    object-fit: contain;
+  }
+}
+
+@media (device-width: 320px) {
+  
 }
