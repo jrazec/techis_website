@@ -411,6 +411,7 @@ background-color: var(--white);
   width: 100%;
   background-color: var(--black1);
   padding-block: 15px;
+  padding-block: 15px;
   z-index: 4;
   transition: var(--transition-2);
 }
@@ -418,6 +419,7 @@ background-color: var(--white);
 .header.active {
   background-color: var(--black2);
   transition: 0.5s;
+  padding-block: 5px;
   padding-block: 5px;
 }
   
@@ -906,6 +908,91 @@ h3.card-title {
   justify-content: space-between;
 }
 
+.sdg-cont {
+  position: relative;
+}
+
+.sdg-logos-cont-right {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 20rem;
+  background-color: white;
+  width: 7.5vw;
+  height: 7.5vw;
+  border-radius: 1rem;
+  box-shadow: 20px 25px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.sdg-logos-cont-left {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 20rem;
+  background-color: white;
+  width: 7.5vw;
+  height: 7.5vw;
+  border-radius: 1rem;
+  box-shadow: 20px 25px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.sdg-logos {
+  width: 6vw;
+  height: 6vw;
+  object-fit: contain;
+
+}
+
+.logo-ribbon-right {
+  position: absolute;
+  top: 8vh;
+  right: -20vw;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 40vw;
+  height: 11vh;
+  z-index: 2;
+  background-color: #e5243ab9;
+  box-shadow: 20px 25px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  display: flex;
+  justify-content: start;
+  padding-left: 4rem;
+  align-items: center;
+}
+
+
+.logo-ribbon-left {
+  position: absolute;
+  top: 8vh;
+  left: -20vw;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 40vw;
+  height: 11vh;
+  z-index: 2;
+  background-color: #e5243ab9;
+  box-shadow: 20px 25px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  display: flex;
+  justify-content: end;
+  padding-right: 4rem;
+  align-items: center;
+}
+
+.left-sdg-logo {
+
+}
+
+.sdg-titles {
+
+}
+
+.section-sdg {
+  position: relative;
+}
 .scrollup{
   position: fixed;
   color: white;
@@ -1591,5 +1678,21 @@ h3.card-title {
   }
   .footer-link{
     font-size: 1rem;
+  }
+  .sdg-logos-cont {
+    top: -50px;
+    right: 10px;
+    background-color: white;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1rem;
+    box-shadow: 20px 25px 20px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  }
+  
+  .img_mv {
+    width: 100vw;
+
+    object-fit: contain;
+  
   }
 }
