@@ -1716,7 +1716,9 @@ h3.card-title {
     font-size: 12px;
   }
   .sdg-desc {
-    display: flex; justify-content: center; align-items: center;
+    display: block; 
+    justify-content: center; 
+    align-items: center;
     font-size: 12px;
   }
   .sdg-members {
