@@ -907,7 +907,9 @@ h3.card-title {
   display: flex;
   justify-content: space-between;
 }
-
+.sdgmenu-info {
+  width: 60vw; 
+}
 .sdg-cont {
   position: relative;
 }
@@ -1753,6 +1755,9 @@ h3.card-title {
     width: 14vw;
     height: 14vw;
     object-fit: contain;
+  }
+  .sdgmenu-info {
+    width: auto;
   }
 }
 
